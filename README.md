@@ -7,6 +7,7 @@ This project has the main objective to iterate thru different models for predict
 
 ## Next steps
 - [ ] iterate thru different models
+- [ ] dockerize
 
 ## Author
 
