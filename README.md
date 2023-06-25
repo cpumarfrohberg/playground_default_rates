@@ -13,6 +13,7 @@ This project has the main objective to iterate thru different models for predict
 * note how changed distributions for prior and likelihood functions improved convergence and the posterior predictive checks
 
 ## Next steps
+- [ ] implement posterior checks, including plotting results
 - [ ] iterate thru different priors (currently, distribution of data is `uniform`, but prior is assumed to be `beta`)
 - [ ] iterate thru different likelihood distributions with longer tails (specifically: how to model very unlikely, but impactful events?)
 - [ ] dockerize
