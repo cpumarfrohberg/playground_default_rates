@@ -14,6 +14,7 @@ This project has the main objective to iterate thru different models for predict
 
 ## Next steps
 - [ ] iterate thru different priors (currently, distribution of data is `uniform`, but prior is assumed to be `beta`)
+- [ ] iterate thru different likelihood distributions with longer tails (specifically: how to model very unlikely, but impactful events?)
 - [ ] dockerize
 
 ## Author
