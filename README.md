@@ -13,7 +13,7 @@ This project has the main objective to iterate thru different models for predict
 * note how changed distributions for prior and likelihood functions improved convergence and the posterior predictive checks
 
 ## Next steps
-- [ ] iterate thru different models
+- [ ] iterate thru different priors (currently, distribution of data is `uniform`, but prior is assumed to be `beta`)
 - [ ] dockerize
 
 ## Author
