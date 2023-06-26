@@ -13,9 +13,8 @@ This project has the main objective to iterate thru different models for predict
 * note how changed distributions for prior and likelihood functions improved convergence and the posterior predictive checks
 
 ## Next steps
-- [ ] implement posterior checks, including plotting results
-- [ ] iterate thru different priors (currently, distribution of data is `uniform`, but prior is assumed to be `beta`)
-- [ ] iterate thru different likelihood distributions with longer tails (specifically: how to model very unlikely, but impactful events?)
+- [ ] iterate thru different priors (currently prior is assumed to be `beta`, but it seems reasonable to assume a `binomial`, if not `bernouilli` - see papers)
+- [ ] iterate thru different likelihood distributions with longer tails (currently likelihood is assumed to be `gamma` (see papers), but it seems reasonable to assume a `beta` and/or `binomial` distributions)
 - [ ] dockerize
 
 ## Author
