@@ -1,4 +1,4 @@
-<h1 align="center">Predict long-term Default Rates.</h1>
+<h1 align="center">Predict Long-term Default Rates</h1>
 <p align="center">Project Description</p>
 This project has the main objective to iterate thru different models for predicting theoretic default rates in the lending business with the objective to find optimal model assumptions in order to then predict the **distribution** of named rates. It is based on the `PyMC`-framework for probabilistic programming.
 
