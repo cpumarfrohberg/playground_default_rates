@@ -7,7 +7,7 @@ This project has the main objective to iterate thru different models for predict
 
 ## Conclusions
 * the larger the sample size, the more stable the convergence (see posterior predictive check) - duh!
-* most realistic assumption for distribution of data is `lognormal` (probability that a large, unexpected default rate materializes is unequal zero)
+* most realistic assumption for distribution of data is `lognormal` (probability that a large, unexpected default rate materializes is non-zero)
 
 ## Next steps
 - [ ] iterate thru different priors (based on intuition as well as selected papers, it seems reasonable to assume a `binomial`, if not `bernouilli` - see papers)
